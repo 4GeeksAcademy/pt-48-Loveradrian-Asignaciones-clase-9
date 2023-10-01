@@ -1,0 +1,23 @@
+Ejemplos de estados:
+
+Un carro puede tener los siguientes estados: 
+-Apagado
+-Encendido
+-En movimiento
+-Detenido
+
+Una taza de cafe puede tener los siguientes estados: 
+
+-Caliente
+-Fria
+-Llena
+-Vacia
+
+Una barra de pan puede tener los siguientes estados: 
+
+-Cruda
+-Cocida
+-Fria
+-Caliente
+-Crujiente
+-Gomosa
