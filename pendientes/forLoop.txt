@@ -1,0 +1,30 @@
+
+Los for loops son bucles que estan compuestos por las siguientes partes: 
+
+a = inicialización
+b = condición
+c = expresion final
+d = sentencia o declaracion 
+
+for (a; b; c) {
+    d; 
+}
+
+inicialización - Sucede antes de la primera ejecución del bucle. 
+Esta expresión es comúnmente utilizada para crear contadores. 
+Las variables creadas tienen un alcance (scope) limitado al cuerpo del bucle.
+ Una vez que el bucle ha terminado su ejecución las variables son destruidas.
+
+condición - Expresión que es evaluada antes de la ejecución de cada iteración. 
+ Si devuelve true, la sentencia del cuerpo del bucle se ejecuta. Si devuelve false, el bucle se detiene.
+
+expresión-final - Expresión que se ejecuta luego de cada iteración. Usualmente es 
+utilizada para incrementar un contador. Pero también puede ser utilizada para decrementar el contador.
+
+sentencia o declaración - Código que será ejecutado repetidamente por el bucle.
+
+Ejemplo de for loop: 
+
+for (let i = 1; i < 100; i++) {
+    console.log(i); //Imprimir los numeros del 1 al 100. 
+}

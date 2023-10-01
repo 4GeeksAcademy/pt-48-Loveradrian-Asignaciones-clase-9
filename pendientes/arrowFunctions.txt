@@ -1,0 +1,45 @@
+ arrow functions: 
+ es una alternativa compacta a una expresión de función tradicional, todo el cuerpo de la function
+ esta en una linea.
+
+ // Función declarada
+function sayHi1(name) {
+    console.log(`Hi ${name}!`)
+}
+
+// Expresión funcional
+const sayHi2 = function(name) {
+    console.log(`name ${name}!`)
+}
+
+// Función flecha
+const sayHi3 = (name) => console.log(`name ${name}!`)
+
+-A la izquierda del arrow operator (=>) encontramos la recepcion del argumento
+y a la derecha la expresion que se evaluara y producira un resultado. 
+-Las funciones flechas tienen un return implicito. 
+
+Ejemplo de una funcion flecha con dos parametros:  
+
+//sin arrow function
+
+var sumar = function (a, b) {
+  return a + b;
+};
+
+//con arrow function
+let suma = (num1, num2) => num1 + num2;
+
+-Si queremos que la funcion flecha haga mas de una operacion debemos usar los curly brackers {} para 
+formar el cuerpo de la funcion y especificar el valor a retornar:
+
+// Return explícito
+const quadruple = (num) => {
+    let value = double(num) // teaser let variables
+    return value * 2
+}
+
+
+
+
+

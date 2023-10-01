@@ -1,0 +1,38 @@
+Link del diagrama de flujo "reto FizzBuzz": 
+
+https://lucid.app/lucidchart/2629884e-43c2-4385-89dc-f6eaa7c28102/edit?beaconFlowId=CB133E3A8509A973&invitationId=inv_a0dab192-6f1a-4314-8cfd-b161a510b9a8&page=0_0#
+
+
+pseudocodigo para "reto FizzBuzz": 
+
+1. Crear un contenedor llamado "numero" y asignarlo el valor 1. 
+2. Evaluar "numero" con los siguientes parametros: 
+    - ¿"numero" = 15?
+        SI = imprimir "FizzBuzz". Luego, saltar al paso 3. 
+        NO = Saltar a la siguiente evaluacion.
+    - ¿"numero" = 3? 
+        SI = imprimir "Fizz". Luego, saltar al paso 3.
+        NO = Saltar a la siguiente evaluacion.  
+    -¿ "numero" = 5? 
+        SI = imprimir "Buzz". Luego, saltar al paso 3.
+        NO = Saltar a la siguiente evaluacion. 
+
+    -imprimir "numero". Luego, saltar al paso 3.
+
+3. Sumarle 1 a "numero".
+4. ¿"numero" = 100? 
+
+    SI = detener proceso.
+    NO = volver al paso 2.
+
+para (*contenedor* numero = 1; mientras numero sea menor o igual a 100; sumar 1 a numero) {
+    SI (numero = 15) {
+        imprimir "FizzBuzz"; 
+    }   SI NO, SI (numero = 3) {
+        imprimir "Fizz"; 
+    } SI NO, SI (numero = 5) {
+        imprimir "Buzz"; 
+    } SI NO {
+        imprimir numero; 
+    }
+}

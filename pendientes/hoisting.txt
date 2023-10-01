@@ -1,0 +1,29 @@
+Hoisting es un término para describir que las declaraciones de variables 
+y funciones son desplazadas a la parte superior del scope más cercano, scope global 
+o de función. Esto sucede solamente con las declaraciones y no con las asignaciones.
+
+Hoisting de var
+
+Hoisting es un mecanismo de JavaScript en el que las variables y 
+declaraciones de funciones se mueven a la parte superior de su 
+ámbito antes de la ejecución del código. Esto significa que si hacemos esto:
+
+console.log (saludar);
+    var saludar = "dice hola"
+
+se interpreta así:
+
+    var saludar;
+    console.log(saludar); // saludar is undefined
+    saludar = "dice hola"
+
+Entonces las variables con var se elevan a la parte superior 
+de su ámbito y se inicializan con un valor de undefined.
+
+Hoisting de let
+Al igual que  var, las declaraciones let se elevan a la parte superior.
+ A diferencia de var que se inicializa como undefined, la palabra clave let no se inicializa. 
+ Sí que si intentas usar una variable let antes de declararla, obtendrás un Reference Error.
+
+ 
+

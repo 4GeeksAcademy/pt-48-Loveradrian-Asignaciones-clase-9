@@ -1,0 +1,18 @@
+Diferentes tipos de cases al escribir: 
+
+Camel case: Su nombre se debe a que las mayusculas a lo largo de las palabras asemejan las
+jorobas de los camellos. 
+
+Existen dos tipos: 
+
+    -UpperCamelCase: Cuando la primera letra de cada palabra esta en mayusculas
+        e.g: MiNombreAqui
+
+    -LowerCamelCase: Cuando la primera letra de cada palabra esta en minusculas.
+        e.g: miNombreAqui 
+
+Snake_Case: Es la convencion que compone las palabras separadas por una barra baja (underscore).
+        e.g: mi_nombre_aqui
+
+Kebab-case: Similar al Snake_case pero en vez de utilizar un underscore, se utilizan guiones.
+        e.g: mi-nombre-aqui
