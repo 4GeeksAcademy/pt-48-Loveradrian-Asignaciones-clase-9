@@ -7,13 +7,13 @@ pseudocodigo para "reto FizzBuzz":
 
 1. Crear un contenedor llamado "numero" y asignarlo el valor 1. 
 2. Evaluar "numero" con los siguientes parametros: 
-    - ¿"numero" = 15?
+    - ¿"numero" % 3 == 0 Y "numero" % 5 == 0?
         SI = imprimir "FizzBuzz". Luego, saltar al paso 3. 
         NO = Saltar a la siguiente evaluacion.
-    - ¿"numero" = 3? 
+    - ¿"numero"  % 3 == 0? 
         SI = imprimir "Fizz". Luego, saltar al paso 3.
         NO = Saltar a la siguiente evaluacion.  
-    -¿ "numero" = 5? 
+    -¿ "numero" % 5 == 0? 
         SI = imprimir "Buzz". Luego, saltar al paso 3.
         NO = Saltar a la siguiente evaluacion. 
 
@@ -26,13 +26,17 @@ pseudocodigo para "reto FizzBuzz":
     NO = volver al paso 2.
 
 para (*contenedor* numero = 1; mientras numero sea menor o igual a 100; sumar 1 a numero) {
-    SI (numero = 15) {
+    SI ("numero" % 3 == 0 && "numero" % 5 == 0) {
         imprimir "FizzBuzz"; 
-    }   SI NO, SI (numero = 3) {
+        return "numero"; 
+    }   SI ("numero"  % 3 == 0) {
         imprimir "Fizz"; 
-    } SI NO, SI (numero = 5) {
+        return "numero"; 
+    } SI ("numero" % 5 == 0) {
         imprimir "Buzz"; 
+        return "numero"; 
     } SI NO {
-        imprimir numero; 
+        imprimir "numero";
+        return "numero" 
     }
 }
